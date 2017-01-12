@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C295E0B1DC03D12001173CE /* decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C295E0A1DC03D12001173CE /* decoder.swift */; };
+		__src_cc_ref_Sources/encoder.swift /* encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/encoder.swift /* encoder.swift */; };
+		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C295E0A1DC03D12001173CE /* decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = decoder.swift; sourceTree = "<group>"; };
+		__PBXFileRef_LzwCodec.xcodeproj/Configs/Project.xcconfig /* LzwCodec.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LzwCodec.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/encoder.swift /* encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encoder.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		"_____Product_LzwCodec" /* LzwCodec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LzwCodec; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_LzwCodec" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				__PBXFileRef_Tests /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_LzwCodec" /* LzwCodec */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_LzwCodec.xcodeproj/Configs/Project.xcconfig /* LzwCodec.xcodeproj/Configs/Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_LzwCodec" /* LzwCodec */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_LzwCodec" /* LzwCodec */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/encoder.swift /* encoder.swift */,
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+				2C295E0A1DC03D12001173CE /* decoder.swift */,
+			);
+			name = LzwCodec;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_LzwCodec" /* LzwCodec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_LzwCodec" /* Build configuration list for PBXNativeTarget "LzwCodec" */;
+			buildPhases = (
+				CompilePhase_LzwCodec /* Sources */,
+				"___LinkPhase_LzwCodec" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LzwCodec;
+			productName = LzwCodec;
+			productReference = "_____Product_LzwCodec" /* LzwCodec */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "LzwCodec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_LzwCodec" /* LzwCodec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_LzwCodec /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				2C295E0B1DC03D12001173CE /* decoder.swift in Sources */,
+				__src_cc_ref_Sources/encoder.swift /* encoder.swift in Sources */,
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_LzwCodec /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_LzwCodec" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_LzwCodec.xcodeproj/Configs/Project.xcconfig /* LzwCodec.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_LzwCodec.xcodeproj/Configs/Project.xcconfig /* LzwCodec.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "LzwCodec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_LzwCodec" /* Build configuration list for PBXNativeTarget "LzwCodec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_LzwCodec" /* Debug */,
+				_ReleaseConf_LzwCodec /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
